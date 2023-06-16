@@ -23,7 +23,7 @@ function App() {
 
     return (
       <div> 
-      <img className='img_title' src='../public/img.jpg'/>
+      <img className='img_title' src='../img.jpg'/>
       <div className='app'>
         <FormSearch 
          setIdLocation={setIdLocation}
