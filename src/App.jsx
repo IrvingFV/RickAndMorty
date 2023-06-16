@@ -22,8 +22,9 @@ function App() {
   }, [idLocation])
 
     return (
+      <div> 
+      <img className='img_title' src='../public/img.jpg'/>
       <div className='app'>
-        <h1>Rick and morty App</h1>
         <FormSearch 
          setIdLocation={setIdLocation}
          />
@@ -32,6 +33,7 @@ function App() {
            ? <h2>❌Hey! you must provide an id from 1 to 126 😟</h2>
            : (
             <>
+          <div className='location_info'/>
           <LocationInfo
         location={location}
         />
@@ -50,7 +52,7 @@ function App() {
     )
     }
  </div>
-
+ </div>
         
   )
 }

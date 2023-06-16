@@ -1,0 +1,13 @@
+.input{
+    border-radius: 8em 0em 0em 8em;
+    width: 180px;
+    height: 25px;
+}
+.btn{
+    border-radius: 0em 8em 8em 0em;
+    height: 25px;
+}
+button{
+    background-color: rgba(40, 184, 40, 0.94);
+    color:white;
+}

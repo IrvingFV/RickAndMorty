@@ -1,18 +1,20 @@
 .resident {
+    font-size: 1em;
     width: 100%;
-    max-width: 350 px;
     background-color: #062226;
     color: white;
     border-radius: 0.8em;
     overflow: hidden;
+    
 }
 .resident__header {
     position: relative;
+    max-width: 468px;
 }
 .resident__status {
     position: absolute;
     top: 15%;
-    width: 30%;
+    width: 40%;
     min-width: 100px;
     background-color: #062226;
     padding: 0.3em 0.5em;
@@ -20,6 +22,7 @@
     display: flex;
     align-items: center;
     gap: 1em;
+    
 }
 .resident__circle{
     display: block;
@@ -37,7 +40,7 @@
 .resident__status-value {
     text-align: center;
     font-size: 1.4rem;
-    font-weight: 500;
+    font-weight: 350;
 }
 .resident__body {
     text-align: inherit;

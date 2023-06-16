@@ -1,0 +1,21 @@
+.app{
+    width: 100%;
+    padding: 0.8em 0.9em;
+    color:aliceblue;
+    text-align: center;
+}
+.img_title{
+    max-height: 350px;
+    
+}
+
+.resident-container {
+   column-count: 4;
+   border-radius: 1.5em;
+   width: 100%;
+   position: static;
+   padding: 0.8em 1em;
+}
+.location_info{
+    padding: 0.8em;
+}

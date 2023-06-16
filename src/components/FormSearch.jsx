@@ -1,5 +1,5 @@
 import { useRef, useState } from "react"
-
+import './styles/FormSearch.css'
 const FormSearch = ( {setIdLocation} ) => {
 
   const idLocationValue = useRef()
@@ -24,17 +24,19 @@ const FormSearch = ( {setIdLocation} ) => {
   return (
     <>
     <form onSubmit={handleSubmit}>
-        <input
+      
+        <input className="input"
         placeholder="Enter id location"
         type= "text"
         ref={idLocationValue}
         />
-        <button>Search</button>
+        <button className="btn">Search</button>
+      
     </form>
     {
       inputIsEmpty && <h3>This field is required. 👀</h3>
     }
-  
+    
     </>
   )
 }
